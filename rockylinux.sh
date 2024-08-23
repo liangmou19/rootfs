@@ -15,8 +15,3 @@ TARBALL_SHA256['aarch64']="7f7f5b04a5938e495bcae4b22e678769db653ccc776d5236a739d
 
 TARBALL_URL['x86_64']="https://github.com/limore1949/rootfs/releases/download/1/rockylinux-9-amd.tar.xz"
 TARBALL_SHA256['x86_64']="6c3815c5e6334c289f36a3086cc9b601de1473b18c4d91c7e1c36c8be8959d04"
-
-# 安装后要执行的指令
-distro_setup() {
-        run_proot_cmd touch /etc/hello-world
-}
