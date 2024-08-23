@@ -15,8 +15,3 @@ TARBALL_SHA256['aarch64']="05b842836112f5d311bc7c4fe4dc16ae483999812f633e024cc90
 
 TARBALL_URL['x86_64']="https://github.com/limore1949/rootfs/releases/download/1/kali-current-amd.tar.xz"
 TARBALL_SHA256['x86_64']="60bc4ab2dd854ddf0fe078adb41b4cafdbef2942e70b876b7f9a488895e025d7"
-
-# 安装后要执行的指令
-distro_setup() {
-        run_proot_cmd touch /etc/hello-world
-}
